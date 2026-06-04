@@ -1,0 +1,20 @@
+{
+  "name": "ee-327---server-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "chess.js": "^1.4.0",
+    "ws": "^8.20.0"
+  }
+}
